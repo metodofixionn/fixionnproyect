@@ -29,8 +29,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 53, 122, 0.911);
-    border-radius: 7px;
-    border: 3px solid rgb(0, 184, 184);    
+    border-radius: 5px;
     position: sticky;
     top: 0%;
 }
@@ -73,13 +72,13 @@
     font-size: 40px;
     text-align: center;
     font-family: "Philosopher:wght";
-    background-image: url(../Img/fondoheader.jpg);
-}   
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgb(0, 184, 184) 70.2% );  
+} 
 
 
 .slogan {
     font-size: 20px;
-    color: rgba(0, 53, 122, 0.911);
+    color: white;
     font-family: "Philosopher:wght"; 
 }
 
@@ -90,7 +89,7 @@
 .tarjetaInicio {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 184, 184, 0.277);
+    background-image: linear-gradient( 156.8deg,  rgba(30,144,231,0.500) 27.1%, rgba(67,101,225,0.500) 77.8%);
     margin-bottom: 5px;
     align-items: center;
     color: rgba(0, 53, 122, 0.911) ;
@@ -142,7 +141,8 @@
     padding: 10px;
     font-weight: bold;
     border: 3px solid rgba(0, 53, 122, 0.911);
-    width: 150px;    
+    width: 150px;
+    text-transform:uppercase;    
 }
 
 .tarjetasMetodox {
@@ -156,7 +156,7 @@
     gap: 20px;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: rgba(0, 184, 184, 0.277);
+    background-image: linear-gradient( 156.8deg,  rgba(30,144,231,0.500) 27.1%, rgba(67,101,225,0.500) 77.8%);
 }
 
 .metodox { 
@@ -169,7 +169,7 @@
 
 .tituloMetodox{
     font-size: 30px;
-    color: rgb(0, 184, 184);
+    color: white
 }
 
 .imagenMetodox {
@@ -219,7 +219,7 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
-    background-color: rgba(0, 184, 184, 0.277);
+    background-image: linear-gradient( 156.8deg,  rgba(30,144,231,0.500) 27.1%, rgba(67,101,225,0.500) 77.8%);
     border-bottom: 10px ridge rgba(0, 53, 122, 0.911);
 }
 .tarjetasNosotros1 {
@@ -230,8 +230,8 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
-    background-color: rgba(0, 184, 184, 0.277);
     border-bottom: 10px ridge rgba(0, 53, 122, 0.911);
+    font-size: 25px;
 }
 
 .nosotros { 
@@ -252,7 +252,7 @@
 
 .tituloNosotros{
     font-size: 30px;
-    color: rgb(0, 184, 184);
+    color: white
 }
 
 .imagenNosotros {
@@ -260,7 +260,6 @@
 }
 
 .queresSerParte {
-    background-color: rgba(0, 184, 184, 0.277);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,7 +310,6 @@
         transform:translate(20px,0)
 }
 
-
 .form {
     display: flex;
     flex-direction: column;
@@ -327,10 +325,9 @@
 .formTitulo {
     text-align: center;
     font-size: 20px;
-    color: rgba(0, 53, 122, 0.911) ;
-    background-color: rgba(0, 184, 184, 0.277);
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgb(0, 184, 184) 70.2% ); 
     margin: 15px;
-    border: 3px solid rgba(0, 53, 122, 0.911);
     border-radius: 15px;
 }
 
@@ -349,12 +346,12 @@
 }
 
 .btn {
-    border-radius: 15px;
-    background-color: rgba(0, 184, 184, 0.277);;
-    color: rgba(0, 53, 122, 0.911) ;
+    border-radius: 10px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0, 53, 122, 0.811) 30%, rgb(0, 184, 184) 70.2% );
+    color: white;
     padding: 10px;
     font-weight: bold;
-    border: 3px solid rgba(0, 53, 122, 0.911);
+    border: 1px solid rgba(0, 53, 122, 0.911);
     margin: 10px;
 }
 
@@ -374,7 +371,7 @@
     color: rgba(0, 184, 184) ;
     font-size: 20px;
     font-family: "Philosopher:wght" ;
-    font-weight: bold;   
+    font-weight: bold;  
 }
 
 
@@ -386,8 +383,7 @@
     gap: 10px;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
-    border: 3px solid rgb(0, 184, 184);   
+    border-radius: 5px;  
 }
 
 .footer h5 {
@@ -485,7 +481,6 @@
 
     .tituloNosotros{
         font-size: 40px;
-        color: rgb(0, 184, 184);
     }
     
     .imagenNosotros {
