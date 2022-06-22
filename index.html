@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="shortcut icon" href="./assets/Img/Fixionn-1.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     
 </head>
@@ -13,11 +14,11 @@
     
     <nav class="navbar">
             
-        <div class="logo">
+        <div class="logo" data-aos="flip-right" data-aos-duration="1500">
             <a href="./index.html"><img src="./assets/Img/Fixionn 3.png" alt="" class="iconoLogo"></a>
         </div>
         
-        <ul>
+        <ul data-aos="zoom-in">
             <li><a href="./pages/metodox.html">Metodo X</a></li>
             <li><a href="./pages/productos.html">Productos</a></li>
             <li><a href="./pages/nosotros.html">Nosotros</a></li>
@@ -74,6 +75,10 @@
         </div>
     
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
 
